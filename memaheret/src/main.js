@@ -343,7 +343,7 @@ function load_from_local_storage() {
         show_help();
         return;
     }
-    if (date !== today) {
+    if (true) {
         localStorage.removeItem('date');
         localStorage.removeItem('guesses');
         return;
