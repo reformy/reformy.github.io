@@ -46,16 +46,6 @@ const FINAL_LETTERS = {'ך': 'כ', 'ם': 'מ', 'ן': 'נ', 'ף': 'פ', 'ץ': 'צ
 const FINALED_LETTERS = {'כ': 'ך', 'מ': 'ם', 'נ': 'ן', 'פ': 'ף', 'צ': 'ץ'};
 const today = get_date();
 const word_of_the_day =
-    today === '15.1.2022' ? 'כימאי' :
-    today === '16.1.2022' ? 'מעטפת' :
-    today === '17.1.2022' ? 'נקיות' :
-    today === '18.1.2022' ? 'חיסון' :
-    today === '19.1.2022' ? 'שתיקה' :
-    today === '20.1.2022' ? 'מבואר' :
-    today === '21.1.2022' ? 'יתגלה' :
-    today === '22.1.2022' ? 'רשאים' :
-    today === '23.1.2022' ? 'הוביל' :
-    today === '24.1.2022' ? 'זינוק' :
     FREQUENT_WORDS[cyrb53('meduyeket ' + today) % FREQUENT_WORDS.length];
 let guesses = [];
 
